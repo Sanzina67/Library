@@ -1,0 +1,113 @@
+body{
+	background:#dedede;
+	font-family:arial;
+	margin:0;
+	padding: 0;
+}
+.dropdown{
+	margin: 0 auto;
+}
+nav{
+	height: 130px;
+	background: black;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.logo{
+	padding:10px;
+	float:left;
+	padding-left: 5px;
+}
+.logo img
+{
+		padding-left: 10px;
+}
+nav ul{
+	padding:30px;
+	margin:0;
+	float: right;
+	margin-right:40px;
+
+}
+nav ul li{
+	background: black;
+	position:relative;
+	list-style: none;
+	display:inline-block;
+}
+nav ul li a{
+	display:block;
+	padding: 0 15px;
+	color:white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+
+}
+nav ul li a:hover{
+	background: black;
+}
+nav ul ul{
+	position:absolute;
+    top:60px;
+    display: none;
+}
+nav ul li:hover>ul{
+	display:block;
+}
+nav ul ul li{
+      width:150px;
+      float:none;
+      display:list-item;
+      position:relative;
+}
+section
+{
+	height:550px;
+	width:1361px;
+	margin-top: 0px;
+	background-image: url("images/back.jpg");
+}
+
+.box{
+	height:300px;
+	width:450px;
+	margin:70px auto;
+	background-color: #17202a;
+	color:white;
+	opacity: .6;
+}
+/*---------------------------------------------login-------------------------------------------------*/
+.login_img{
+	height: 700px;
+	width:1361px;
+	margin-top: 0px;
+	background-image: url(images/login.jpg);
+}
+.box1{
+	height:400px;
+	width:400px;
+	margin:70px auto;
+	background-color: #17202a;
+	color:white;
+	opacity: .7;
+	padding:20px;
+}
+form .login{
+	margin:auto 50px;
+}
+input{
+	height: 25px;
+	width:300px;
+	
+}
+/*--------------------------------------------registration-------------------------------------*/
+.box2{
+	height:510px;
+	width:450px;
+	margin:70px auto;
+	background-color: #17202a;
+	color:white;
+	opacity: .7;
+	padding:20px;
+}
+
